@@ -89,9 +89,11 @@
     font-size: 24px;
     text-decoration: none;
     list-style: none;
+    transition: transform .4s ease;
 }
 .offer:hover{
     background-color: #e6dcdc;
+    transform: scale(1.05);
 }
 .farm{
     position: relative;
@@ -131,15 +133,22 @@
     padding-top: .7rem;
     cursor: pointer;
     z-index: 1;
+    transition: transform .4s ease;
 }
 .our-story:hover{
     background-color: #322d2d;
+    transform: scale(1.05);
 
 }
 .img img{
     width: auto;
     height: 700px;
     display: inline-block;
+    transition: transform 0.4s ease;
+}
+.img img:hover{
+  transform:scale(1.05);
+
 }
 .img p{
     color: #121111;
@@ -177,6 +186,7 @@
    font-size: 24px;
    margin-top: 10px;
    z-index:  1;
+   transition: transform .4s ease;
 }
 .learn{
     position: relative;
@@ -192,12 +202,16 @@
    margin-top: 10px;
    cursor: pointer;
    z-index: 1;
+   transition: transform .4s ease;
 }
 .learn:hover{
     background-color: #322d2d;
+    transform: scale(1.05);
 }
 .shop:hover{
     background-color: #322d2d;
+    transform:scale(1.05);
+
 }
 .touch{
     text-align: center;
@@ -228,11 +242,14 @@
     font-family: Arial, Helvetica, sans-serif;
     width:200px;
     height: 50px;
-    padding-top: .7rem;
+    padding-top: .7rem;   
+    transition: transform 0.4s ease;
+
 
 }
 .btn:hover{
     background-color: #322d2d;
+    transform:scale(1.05);
 }
 .footer{
     position: relative;
@@ -307,4 +324,6 @@ span{
 a{
     text-decoration: none;
 }
+@media (max-width: 768px) {
 
+}

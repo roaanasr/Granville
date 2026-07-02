@@ -86,9 +86,11 @@ body{
     width:200px;
     height: 50px;
     padding-top: .7rem;
+    transition: transform .4s ease;
 }
 #contact:hover{
     background-color: #322d2d;
+    transform: scale(1.05);
 }
 .images {
     text-align: center; 
@@ -99,8 +101,12 @@ body{
     width: 400px;
     margin: 10px;
     text-align: center;
+    transition: transform .4s ease;
+
   }
-  
+  .images .container:hover {
+    transform:scale(1.05);
+  }  
 .images .container img {
     width: 100%;
     height: auto;
@@ -147,9 +153,12 @@ body{
     width:150px;
     height: 50px;
     padding-top: .8rem;
+    transition: transform .4s ease;
 }
 #find-out:hover{
-    background-color: #322d2d;}
+    background-color: #322d2d;
+    transform: scale(1.05);
+}
     .footer{
         position: relative;
         margin: 40px;
@@ -170,9 +179,11 @@ body{
         margin-left:40px;
         z-index: 999;
         border-radius:50% ;
+        transition: transform .4s ease;
     }
     .icons a :hover{
         background-color: #a49a9a;
+        transform: scale(1.05);
     }
     #contact2{
         text-align: center;
@@ -218,3 +229,10 @@ body{
         right:6%;
         font-size: 20px;
     }    
+    a{
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+
+    }
+    

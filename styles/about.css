@@ -95,10 +95,12 @@ body{
     width:200px;
     height: 50px;
     padding-top: .7rem;
+    transition: transform .4s ease;
 
 }
 #touch:hover{
     background-color: #322d2d;
+    transform: scale(1.05);
 }
 .our-values{
     position: relative;
@@ -170,9 +172,11 @@ body{
     height: 50px;
     padding-top: .7rem;
     text-align: center;
+    transition: transform .4s ease;
   }
   #read:hover{
     background-color: #322d2d;
+    transform: scale(1.05);
   }
   .ecological{
     height: 400px;
@@ -202,9 +206,11 @@ body{
     height: 50px;
     padding-top: .7rem;
     z-index: 999;
+    transition: transform .4s ease;
  }
  #Get:hover{
     background-color:#322d2d;
+    transform: scale(1.05);
  }
  .footer{
     position: relative;
@@ -274,5 +280,13 @@ span{
     right:6%;
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+
+}
+
+
 
 
